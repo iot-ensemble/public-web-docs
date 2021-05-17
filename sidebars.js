@@ -10,7 +10,9 @@ module.exports = {
       'getting-started/buy-and-scale',
     ],
     Tutorials: [
-      "tutorials/arduino-esp32-and-enviro-sensor"
+      "tutorials/arduino-esp32-and-enviro-sensor",
+      "tutorials/esp32-tmp117-fridge-monitor",
+      "tutorials/houseplant-sensor-arduino-esp32"
     ],
     Developers: [
       'devs/licenses',
