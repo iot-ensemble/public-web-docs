@@ -16,11 +16,16 @@ module.exports = {
     oribi: {
       trackingID: 'XzcwMzAwMzkyNA',
     },
+    algolia: {
+      apiKey: '7cf0c6d743a656026774417b23922a4a', // search key
+      indexName: 'dev_fathym',
+      appId: 'ZVO5OXAWMB',
+      contextualSearch: false,
+    },
     colorMode: {
       // "light" | "dark"
       defaultMode: 'dark',
-      // Hides the switch in the navbar
-      // Useful if you want to support a single color mode
+      // Hides the switch in the navbar. Useful if you want to support a single color mode
       disableSwitch: true,
     },
     navbar: {
@@ -31,34 +36,47 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://www.iot-ensemble.com/',
+          href: '/',
           label: 'Home',
           position: 'left',
           target: '_top',
         },
+        // {
+        //   href: 'https://www.iot-ensemble.com/dashboard',
+        //   label: 'Sign Up',
+        //   position: 'left',
+        //   target: '_top',
+        // },
+        // {
+        //   href: 'https://www.iot-ensemble.com/pricing',
+        //   label: 'Pricing',
+        //   position: 'right',
+        //   target: '_top',
+        // },
         {
-          href: 'https://www.iot-ensemble.com/pricing',
-          label: 'Pricing',
+          href: '/docs',
+          label: 'Docs',
           position: 'right',
           target: '_top',
         },
         {
-          to: '/',
-          label: 'Docs',
-          position: 'right',
-        },
-        {
-          href: 'https://www.iot-ensemble.com/blog',
+          href: '/blog',
           label: 'Blog',
           position: 'right',
           target: '_top',
         },
         {
-          href: 'https://www.iot-ensemble.com/dashboard',
+          href: '/dashboard',
           label: 'Sign In',
           position: 'right',
           target: '_top',
         },
+        {
+          href: '/dashboard',
+          label: 'Sign Up',
+          position: 'right',
+          target: '_top',
+        }, 
       ],
     },
     footer: {
@@ -69,12 +87,12 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'https://www.iot-ensemble.com/dashboard',
+              to: '/dashboard',
             },
-            {
-              label: 'Pricing',
-              to: 'https://www.iot-ensemble.com/pricing',
-            },
+            // {
+            //   label: 'Pricing',
+            //   to: 'https://www.iot-ensemble.com/pricing',
+            // },
             {
               label: 'Support',
               to: '/introduction/support',
@@ -124,6 +142,7 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {},
       },
     ],
   ],

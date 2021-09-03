@@ -85,4 +85,4 @@ There are a lot of options in Power BI Desktop for importing data to be used in 
 
 Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as well as the interactive forms described above to obtain request URLs for cold and warm storage queries.  This is all you need to get started visualizing data with Power BI!
 
-You can get started with a [Power BI dashboard](../devs/storage/power-bi), or for a complete look at how it fits in, check out our [Ent-to-end IoT blog](https://www.iot-ensemble.com/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi).
+You can get started with a [Power BI dashboard](../devs/storage/power-bi), or for a complete look at how it fits in, check out our [End-to-end IoT blog](https://www.iot-ensemble.com/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi).

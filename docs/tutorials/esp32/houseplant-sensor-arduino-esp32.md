@@ -332,7 +332,7 @@ Before we can continue, we need to register your ESP32 device with IoT Ensemble
 
 Before we can tell your device where to send data, we first need somewhere to send the data.  There are a number of different ways this can be accomplished, with IoT Ensemble the focus is helping you leverage best practice cloud IoT technology.  Here we'll be using the Azure IoT Hub to connect devices to a shared data flow, and then make it available downstream for use in other applications.
 
-Follow these steps to create a new device in IoT Ensemble. For more details on the full IoT Ensemble experience, check out our [full documentation](../getting-started/connecting-first-device).
+Follow these steps to create a new device in IoT Ensemble. For more details on the full IoT Ensemble experience, check out our [full documentation](/getting-started/connecting-first-device).
 
 Start by navigating to the [IoT Ensemble Dashboard](https://www.iot-ensemble.com/dashboard) and sign in or sign up.  For the purposes of moving forward, you will only need the Free license and no credit card will be required.
 
@@ -388,14 +388,14 @@ Once you confirm that messages are sending correctly, you can now go to [IoT Ens
 
 ![Iot Ensemble ESP32 Telemetry](/img/screenshots/live-esp32-data.png)
 
-Just make sure that you have the Device Telemetry toggle set to "Enabled". For more information on Device Telemetry, check out our [docs](../getting-started/viewing-device-data).
+Just make sure that you have the Device Telemetry toggle set to "Enabled". For more information on Device Telemetry, check out our [docs](/getting-started/viewing-device-data).
 
 ## Next Steps
 This solution is only one of several possibilities for your own personalized smart garden. Some fun next steps for expanding your monitor could be:
 - Adding additional UV and soil moisture sensors to monitor multiple houseplants or gardening zones
-- Monitoring for other useful data, like temperature, humidity, (check out one of our temperature solutions [here](../tutorials/arduino-esp32-and-enviro-sensor)) pH, air quality, and more!
+- Monitoring for other useful data, like temperature, humidity, (check out one of our temperature solutions [here](/tutorials/esp32/arduino-esp32-and-enviro-sensor)) pH, air quality, and more!
 - If you are comfortable with C coding in Arduino, you could also set up different configurations for different types of plants. In my code sample, you can see that I created arbitrary values for what I thought "optimal" plant conditions would be. Instead, there could be different configurations for "Succulents", which generally need more light and less water than normal plants. Another configuration could be for "Tropical" plants, which generally require more soil moisture and humidity.
 
 Hooking up the hardware is just the beginning of IoT Ensemble. There are a number of options for accessing and displaying your data easily. 
-- [Connecting Downstream Devices](../getting-started/connecting-downstream) will walk through the different ways to access your data.
-- Check out the documentation for connecting your data with outside tools, such as [Power BI](../devs/storage/power-bi), [Grafana](../devs/storage/grafana), and others. 
+- [Connecting Downstream Devices](/getting-started/connecting-downstream) will walk through the different ways to access your data.
+- Check out the documentation for connecting your data with outside tools, such as [Power BI](/devs/storage/power-bi), [Grafana](/devs/storage/grafana), and others. 

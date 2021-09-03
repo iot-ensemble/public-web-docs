@@ -1,6 +1,6 @@
 module.exports = {
   docs: {
-    Introduction: ['introduction/overview', 'introduction/support'],
+    Introduction: ['introduction/overview', 'introduction/support','introduction/hosting_plans'],
     'Getting Started': [
       'getting-started/setup',
       'getting-started/emulated-data',
@@ -10,9 +10,22 @@ module.exports = {
       'getting-started/buy-and-scale',
     ],
     Tutorials: [
-      "tutorials/arduino-esp32-and-enviro-sensor",
-      "tutorials/esp32-tmp117-fridge-monitor",
-      "tutorials/houseplant-sensor-arduino-esp32"
+      {
+          'ESP32': [
+          "tutorials/esp32/arduino-esp32-and-enviro-sensor",
+          "tutorials/esp32/esp32-tmp117-fridge-monitor",
+          "tutorials/esp32/houseplant-sensor-arduino-esp32",
+        ]
+      },
+      {
+          'Phoenix Contact': [
+          "tutorials/phoenix-contact/plcnext-to-powerbi",
+          "tutorials/phoenix-contact/plcnext-to-grafana-dashboard",
+          "tutorials/phoenix-contact/plcnext-to-email-text-alerts",
+          "tutorials/phoenix-contact/plcnext-to-azure-machine-learning",
+          "tutorials/phoenix-contact/plcnext-to-tableau-dashboard",
+        ]
+      },
     ],
     Developers: [
       'devs/licenses',
