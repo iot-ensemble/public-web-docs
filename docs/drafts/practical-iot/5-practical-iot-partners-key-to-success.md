@@ -8,7 +8,7 @@ tags: []
 hide_table_of_contents: true
 ---
 
-![IoT Ensemble Diagram](/img/iot-ensemble-diagram.png)
+![IoT Ensemble Diagram](https://www.iot-ensemble.com/img/iot-ensemble-diagram.png)
 
 Not really the place to start.  It is expensive to build hardware, especially custom hardware...  And if that hardware doesn't collect the data needed to produce desired results, then 
 

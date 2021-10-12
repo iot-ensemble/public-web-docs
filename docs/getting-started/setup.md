@@ -4,9 +4,12 @@ hide_title: true
 sidebar_label: Setup
 keywords:
     - iot
+    - iot ensemble
+    - fathym
     - azure
     - connect a device
     - iot hub
+    - dashboard
 hide_table_of_contents: true
 ---
 
@@ -22,4 +25,4 @@ To kick things off, visit the [IoT Ensemble](https://www.iot-ensemble.com/dashbo
 
 Once signed in, the IoT Ensemble Dashboard will load with a Free License.  A one stop, cloud-native IoT starting point, the dashboard is a control system for data emulation, connecting devices, understanding data and connecting with downstream services.
 
-![Dashboard New](/img/screenshots/dashboard-new.png)
+![Dashboard New](https://www.iot-ensemble.com/img/screenshots/dashboard-new.png)

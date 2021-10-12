@@ -16,12 +16,6 @@ module.exports = {
     oribi: {
       trackingID: 'XzcwMzAwMzkyNA',
     },
-    algolia: {
-      apiKey: '7cf0c6d743a656026774417b23922a4a', // search key
-      indexName: 'dev_fathym',
-      appId: 'ZVO5OXAWMB',
-      contextualSearch: false,
-    },
     colorMode: {
       // "light" | "dark"
       defaultMode: 'dark',
@@ -36,7 +30,7 @@ module.exports = {
       },
       items: [
         {
-          href: '/',
+          href: 'https://www.iot-ensemble.com',
           label: 'Home',
           position: 'left',
           target: '_top',
@@ -54,25 +48,25 @@ module.exports = {
         //   target: '_top',
         // },
         {
-          href: '/docs',
+          href: 'https://www.iot-ensemble.com/docs',
           label: 'Docs',
           position: 'right',
           target: '_top',
         },
         {
-          href: '/blog',
+          href: 'https://www.iot-ensemble.com/blog',
           label: 'Blog',
           position: 'right',
           target: '_top',
         },
         {
-          href: '/dashboard',
+          href: 'https://www.iot-ensemble.com/dashboard',
           label: 'Sign In',
           position: 'right',
           target: '_top',
         },
         {
-          href: '/dashboard',
+          href: 'https://www.iot-ensemble.com/dashboard',
           label: 'Sign Up',
           position: 'right',
           target: '_top',
@@ -87,7 +81,7 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: '/dashboard',
+              to: 'https://www.iot-ensemble.com/dashboard',
             },
             // {
             //   label: 'Pricing',

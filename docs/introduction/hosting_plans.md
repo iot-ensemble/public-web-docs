@@ -4,13 +4,16 @@ hide_title: true
 sidebar_label: Hosting Plans
 keywords:
     - iot
+    - iot ensemble
+    - fathym
     - azure
     - connect a device
     - iot hub
-    - hosting plans
+    - hosting plan
     - SaaS
     - enterprise
     - shared
+    - white label
 hide_table_of_contents: true
 ---
 
@@ -22,7 +25,7 @@ What typically happens in organizations is there is an investment in a SaaS solu
 
 Let's look at how the different hosting plans align with the pace of your growth.
 
-![Hosting Plans](https://www.iot-ensemble.com/static/images/isometric-iot-ensemble-lcu-whitelabel-white.png)
+![Hosting Plans](https://www.iot-ensemble.com/img/isometric-iot-ensemble-lcu-whitelabel-white.png)
 
 ## Shared Plan 
 

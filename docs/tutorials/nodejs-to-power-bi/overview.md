@@ -2,6 +2,14 @@
 title: Tutorials - NodeJS to PowerBI
 hide_title: true
 sidebar_label: NodeJS to PowerBI
+keywords:
+    - NodeJS
+    - power bi
+    - fathym
+    - iot
+    - iot ensemble
+    - azure
+    - iot hub
 hide_table_of_contents: true
 ---
 

@@ -3,6 +3,11 @@ slug: best-practice-schema
 title: Getting Started - For Devs - IoT Schema Explained
 hide_title: true
 sidebar_label: IoT Schema Explained 
+keywords:
+    - IoT
+    - IoT Ensemble
+    - Fathym
+    - best practice schema
 hide_table_of_contents: true
 ---
 

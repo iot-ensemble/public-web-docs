@@ -17,7 +17,7 @@ keywords:
 hide_table_of_contents: true
 ---
 
-## PLCnext Power BI Reports
+## PLCnext to IoT Ensemble to Power BI Reports
 
 Once you have your Phoenix Contact PLCnext Control data flowing to the cloud, it's time to create some Power BI reports so that you can easily monitor everything. But first things first, let's get our PLCnext Control connected to Microsoft Azure.
 

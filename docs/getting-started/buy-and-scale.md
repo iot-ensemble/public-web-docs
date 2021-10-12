@@ -4,9 +4,13 @@ hide_title: true
 sidebar_label: Buy and Scale
 keywords:
     - iot
+    - iot ensemble
+    - fathym
     - azure
     - connect a device
     - iot hub
+    - shared cloud
+    - enterprise
 hide_table_of_contents: true
 ---
 

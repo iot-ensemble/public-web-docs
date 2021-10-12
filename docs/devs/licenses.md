@@ -4,6 +4,8 @@ hide_title: true
 sidebar_label: Licenses
 keywords:
     - iot
+    - iot ensemble
+    - fathym
     - azure
     - connect a device
     - iot hub

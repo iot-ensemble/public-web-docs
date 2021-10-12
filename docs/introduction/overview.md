@@ -5,6 +5,8 @@ hide_title: true
 sidebar_label: Overview
 keywords:
     - iot
+    - iot ensemble
+    - fathym
     - azure
     - connect a device
     - iot hub
@@ -17,7 +19,7 @@ Fathym IoT Ensemble is a platform focused on helping you to connect devices, und
 
 Managing the learning path, usage and growth of cloud-native IoT development strategies can be a daunting challenge. Use IoT Ensemble to reliably deliver IoT applications across hybrid-clouds. [Get started](https://www.iot-ensemble.com/dashboard) today.
 
-![IoT Ensemble Diagram](/img/iot-ensemble-diagram.png)
+![IoT Ensemble Diagram](https://www.iot-ensemble.com/img/iot-ensemble-diagram.png)
 
 ## Connect, Understand, Scale
 

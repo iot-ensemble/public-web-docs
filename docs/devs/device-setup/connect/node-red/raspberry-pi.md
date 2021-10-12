@@ -2,6 +2,13 @@
 title: Developers - Device Setup - Connect - Node Red
 hide_title: true
 sidebar_label: Overview 
+keywords:
+    - Node-RED
+    - Fathym
+    - IoT
+    - IoT Ensemble
+    - Raspberry Pi
+    - Node.js
 hide_table_of_contents: true
 ---
 

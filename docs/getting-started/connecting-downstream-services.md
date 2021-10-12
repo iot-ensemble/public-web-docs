@@ -5,9 +5,15 @@ hide_title: true
 sidebar_label: Connect Downstream
 keywords:
     - iot
+    - iot ensemble
+    - fathym
     - azure
     - connect a device
     - iot hub
+    - downstream services
+    - cold storage
+    - warm storage
+    - power bi
 hide_table_of_contents: true
 ---
 
@@ -33,11 +39,11 @@ This storage access documentation focuses around our pre-built APIs, available t
 
 There are a few different places to locate API keys, the simplest is from the Storage Access section at the bottom of the dashboard.
 
-![Storage Access](/img/screenshots/dashboard-storage-access.png)
+![Storage Access](https://www.iot-ensemble.com/img/screenshots/dashboard-storage-access.png)
 
-To quickly copy storage access keys, use the <img src="/img/screenshots/icon-copy.png" class="text-image" /> button, or use the <img src="/img/screenshots/icon-view.png" class="text-image" /> and <img src="/img/screenshots/icon-hide.png" class="text-image" /> buttons to toggle the visibility of the keys on screen.  
+To quickly copy storage access keys, use the <img src="https://www.iot-ensemble.com/img/screenshots/icon-copy.png" class="text-image" /> button, or use the <img src="https://www.iot-ensemble.com/img/screenshots/icon-view.png" class="text-image" /> and <img src="https://www.iot-ensemble.com/img/screenshots/icon-hide.png" class="text-image" /> buttons to toggle the visibility of the keys on screen.  
 
-<!-- If needing to regenerate either of the keys, use the <img src="/img/screenshots/icon-refresh.png" class="text-image" /> button. -->
+<!-- If needing to regenerate either of the keys, use the <img src="https://www.iot-ensemble.com/img/screenshots/icon-refresh.png" class="text-image" /> button. -->
 
 ### Cold Storage
 

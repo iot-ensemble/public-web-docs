@@ -20,7 +20,7 @@ keywords:
 hide_table_of_contents: true
 ---
 
-## PLCnext Email & Text Alerts
+## PLCnext to IoT Ensemble to Email & Text Alerts
 
 Once you have your Phoenix Contact PLCnext Control data flowing to the cloud, it's time to setup alerts and notifications so that you can easily monitor everything. I prefer using Microsoft Logic Apps for sending email and text alerts when temperatures rise above a specified threshold. But first things first, let's get our PLCnext Control connected to Microsoft Azure.
 

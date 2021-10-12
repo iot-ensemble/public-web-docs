@@ -16,7 +16,7 @@ keywords:
 hide_table_of_contents: true
 ---
 
-## PLCnext Azure Machine Learning
+## PLCnext to IoT Ensemble to Azure Machine Learning
 
 Once you have your Phoenix Contact PLCnext Control data flowing to the cloud, it's time to develop some fast and efficient algorithms and Machine Learning models for real-time processing of the data. Azure Machine Learning empowers us with a wide range of productive experiences for building, training, and deploying machine learning models faster. IoT Ensemble provides out of the box APIs that allow you to easily load your PLCnext data into Azure Machine Learning. But first things first, let's get our PLCnext Control connected to Microsoft Azure.
 

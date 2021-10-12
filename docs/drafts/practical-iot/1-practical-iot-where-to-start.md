@@ -8,7 +8,7 @@ tags: []
 hide_table_of_contents: true
 ---
 
-![IoT Ensemble Diagram](/img/iot-ensemble-diagram.png)
+![IoT Ensemble Diagram](https://www.iot-ensemble.com/img/iot-ensemble-diagram.png)
 
 ... intro ...
 

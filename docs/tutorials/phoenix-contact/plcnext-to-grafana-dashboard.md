@@ -16,7 +16,7 @@ keywords:
 hide_table_of_contents: true
 ---
 
-## PLCnext Grafana Dashboards
+## PLCnext to IoT Ensemble to Grafana Dashboards
 
 Once you have your Phoenix Contact PLCnext Control data flowing to the cloud, it's time to create some Grafana Dashboards so that you can easily monitor everything. But first things first, let's get our PLCnext Control connected to Microsoft Azure.
 

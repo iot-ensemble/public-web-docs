@@ -4,6 +4,8 @@ hide_title: true
 sidebar_label: HTTP
 keywords:
     - iot
+    - fathym
+    - iot ensemble
     - azure
     - connect a device
     - iot hub
