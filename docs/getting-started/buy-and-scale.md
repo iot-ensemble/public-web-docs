@@ -16,7 +16,7 @@ hide_table_of_contents: true
 
 # Buy and Scale Devices
 
-From our own and our customer’s experience, we know that starting new IoT projects at a cost-effective pace is critical to success. All too often teams run into longer than estimated timelines and unknown cost spikes. IoT Ensemble provides an IoT project starting point that works for novices through to senior architects, to deliver repeatable and scalable enterprise-grade IoT solutions. 
+From our own and our customer’s experience, we know that starting new IoT projects at a cost-effective pace is critical to success. All too often teams run into longer than estimated timelines and unknown cost spikes. IoT Ensemble provides an IoT project starting point that works for novices through to senior architects, to deliver repeatable and scalable enterprise-grade IoT solutions.       
 
 [Get started](https://www.iot-ensemble.com/billing/iot) now and connect your first device for free, no credit card required.
 
