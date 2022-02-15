@@ -30,7 +30,7 @@ This screenshot shows some sample IoT Ensemble data loaded in SQL Server.
 
 You need to create firewall rules for the Grafana ip addresses so they have permission to connect to the SQL Server database. The screenshot below shows firewall rules configured for specific ip addresses, as well as a couple of ip ranges.
 
-![Firewall Rules](https://www.iot-ensemble.com/img/screenshots/alerts/firewall-rules.png)
+![Firewall Rules](/img/screenshots/alerts/firewall-rules.png)
 
 ## Step 2: Configure the Grafana Data Source
 
