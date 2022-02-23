@@ -18,7 +18,7 @@ Grafana has many options for importing data. We recommend using the [JSON API da
 
 The IoT Ensemble Dashboard displays your API Keys. 
 
-![IoT Ensemble API Keys](https://www.iot-ensemble.com/img/screenshots/dashboard-storage-access.png)
+![IoT Ensemble API Keys](https://www.fathym.com/iot/img/screenshots/dashboard-storage-access.png)
 
 For the Cold Query, use this URL:
 
@@ -40,11 +40,11 @@ In IoT Ensemble, use the 'Try It' section to see the parameters available for th
 
 From the Grafana Home, click on Configuration > Data Sources 
 
-![Grafana Data Sources](https://www.iot-ensemble.com/img/screenshots/grafana-1.jpg)
+![Grafana Data Sources](https://www.fathym.com/iot/img/screenshots/grafana-1.jpg)
 
 Click the 'Add data source' button and search for 'json'.  Select the 'JSON API' plugin.
 
-![Grafana Data Sources](https://www.iot-ensemble.com/img/screenshots/grafana-2.jpg)
+![Grafana Data Sources](https://www.fathym.com/iot/img/screenshots/grafana-2.jpg)
 
 This example uses the Cold Query. Use the following values in the form: 
 
@@ -53,7 +53,7 @@ This example uses the Cold Query. Use the following values in the form:
 - Custom HTTP Headers: `lcu-subscription-key: ***********`
 - Query string: `dataType=Telemetry&flatten=true&includeEmulated=false&resultType=JSON&zip=false` 
 
-![Grafana JSON API](https://www.iot-ensemble.com/img/screenshots/grafana-3.jpg)
+![Grafana JSON API](https://www.fathym.com/iot/img/screenshots/grafana-3.jpg)
 
 Click the 'Save & Test' button to verify the connection is successful. It should say 'Success' like the screenshot above. 
 
@@ -67,13 +67,16 @@ Use your primaryKey or secondaryKey from the IoT Ensemble API Keys for the lcu-s
 
 Create a new dashboard and add a panel. For the data source, select the one you added above. 
 
-![Grafana Panel](https://www.iot-ensemble.com/img/screenshots/grafana-4.jpg)
+![Grafana Panel](https://www.fathym.com/iot/img/screenshots/grafana-4.jpg)
 
 Switch to the Table visualization to easily view the raw data from storage. Use the screenshot below as a reference for how to access the device properties. 
 
-![Grafana Query](https://www.iot-ensemble.com/img/screenshots/grafana-5.jpg)
+![Grafana Query](https://www.fathym.com/iot/img/screenshots/grafana-5.jpg)
 
 Success! Now that your data is loaded into Grafana, you can build dashboards like this:
 
-![Grafana Dashboard](https://www.iot-ensemble.com/img/screenshots/grafana-6.jpg)
+![Grafana Dashboard](https://www.fathym.com/iot/img/screenshots/grafana-6.jpg)
+
+
+
  

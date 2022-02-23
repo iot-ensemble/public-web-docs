@@ -24,33 +24,33 @@ The first step is to call the IoT Ensemble warm or cold query and load your devi
 
 This screenshot shows some sample IoT Ensemble data loaded in SQL Server.
 
-![SQL Server Table](https://www.iot-ensemble.com/img/screenshots/alerts/sql-server-data.png)
+![SQL Server Table](https://www.fathym.com/iot/img/screenshots/alerts/sql-server-data.png)
 
 ### Configure SQL Server Firewall Rules
 
 You need to create firewall rules for the Grafana ip addresses so they have permission to connect to the SQL Server database. The screenshot below shows firewall rules configured for specific ip addresses, as well as a couple of ip ranges.
 
-![Firewall Rules](https://www.iot-ensemble.com/img/screenshots/alerts/firewall-rules.png)
+![Firewall Rules](https://www.fathym.com/iot/img/screenshots/alerts/firewall-rules.png)
 
 ## Step 2: Configure the Grafana Data Source
 
 From the Grafana Home, click on Configuration > Data Sources 
 
-![Grafana Data Sources](https://www.iot-ensemble.com/img/screenshots/grafana-1.jpg)
+![Grafana Data Sources](https://www.fathym.com/iot/img/screenshots/grafana-1.jpg)
 
 Click the 'Add data source' button and search for 'sql'.  Select the 'Microsoft SQL Server' plugin.
 
-![SQL Server Data Source](https://www.iot-ensemble.com/img/screenshots/alerts/sql-server-datasource.png)
+![SQL Server Data Source](https://www.fathym.com/iot/img/screenshots/alerts/sql-server-datasource.png)
 
 Fill in the form with your SQL Server information. Click the 'Save & Test' button to verify the connection is successful. It should say 'Database Connection OK' like the screenshot below.
 
-![SQL Server Settings](https://www.iot-ensemble.com/img/screenshots/alerts/sql-server-datasource-settings.png)
+![SQL Server Settings](https://www.fathym.com/iot/img/screenshots/alerts/sql-server-datasource-settings.png)
 
 ## Step 3: Create a Grafana Dashboard 
 
 Create a new dashboard and add a Graph panel. For the data source, select the one you added above. 
 
-![Grafana Dashboard](https://www.iot-ensemble.com/img/screenshots/alerts/grafana-dashboard.png)
+![Grafana Dashboard](https://www.fathym.com/iot/img/screenshots/alerts/grafana-dashboard.png)
 
 :::info
 In the screenshot above, notice that we're using the following query:
@@ -67,7 +67,7 @@ Modify the query to fit the properties of your IoT Ensemble data.
 
 In this example, the alert is checking if the `average Temperature is above 70`. Visit the [Grafana Docs](https://grafana.com/docs/grafana/latest/alerting/create-alerts/) to read more about how to setup and configure alerts in Grafana.
 
-![Alert Settings](https://www.iot-ensemble.com/img/screenshots/alerts/grafana-alert-settings.png)
+![Alert Settings](https://www.fathym.com/iot/img/screenshots/alerts/grafana-alert-settings.png)
 
 :::note
 Only Graph panels support alerts in Grafana. You cannot setup alerts on Stats, Gauges, Bar Guages, Tables, etc.
@@ -77,7 +77,7 @@ Only Graph panels support alerts in Grafana. You cannot setup alerts on Stats, G
 
 I received the following email alert from Grafana when the `average Temperature was above 70`.
 
-![Alert Settings](https://www.iot-ensemble.com/img/screenshots/alerts/grafana-email.png)
+![Alert Settings](https://www.fathym.com/iot/img/screenshots/alerts/grafana-email.png)
 
 ## Step 6: Email to Text (SMS)
 
@@ -93,3 +93,4 @@ Texting via email is easy. Type in the recipient's mobile number in front of the
 - Boost Mobile – number@myboostmobile.com
 - U.S. Cellular – number@email.uscc.net
 - Metro PCS – number@mymetropcs.com
+

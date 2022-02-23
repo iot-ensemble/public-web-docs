@@ -24,11 +24,11 @@ In the previous guide, we worked through our emulated data and saw the dashboard
 
 To get started with a device, simply enter a device name and enroll it.
 
-![Enroll New Device](https://www.iot-ensemble.com/img/screenshots/dashboard-enroll-device.png)
+![Enroll New Device](https://www.fathym.com/iot/img/screenshots/dashboard-enroll-device.png)
 
 We'll start off with a symmetric key protected device, and can move to other security in the future.  Once created, the connection string will be available for use in the next steps.
 
-![Device List](https://www.iot-ensemble.com/img/screenshots/dashboard-device-list-first-device.png)
+![Device List](https://www.fathym.com/iot/img/screenshots/dashboard-device-list-first-device.png)
 
 ## Send Device Data
 
@@ -121,9 +121,9 @@ If not using the best practice schema, data will still be accessible throughout 
 
 With an understanding of the device schema options, connecting is fairly straight forward.  The following connection quick starts will walk through some initial ways to get data flowing, then dig into more complex connection scenarios.  
 
-All that's needed for the following sections is the device connection string.  Copy it from the dashboard, after creating a first device, using the <img src="https://www.iot-ensemble.com/img/screenshots/icon-copy.png" class="text-image" /> button.
+All that's needed for the following sections is the device connection string.  Copy it from the dashboard, after creating a first device, using the <img src="https://www.fathym.com/iot/img/screenshots/icon-copy.png" class="text-image" /> button.
 
-![Copy Connection String](https://www.iot-ensemble.com/img/screenshots/dashboard-device-list-single-record.png)
+![Copy Connection String](https://www.fathym.com/iot/img/screenshots/dashboard-device-list-single-record.png)
 
 :::note
 
@@ -137,11 +137,11 @@ Starting off simple, then working up to some real device connection examples, we
 
 ### Send Via Dashboard
 
-Using the send device message form from the dashboard is the easiest way to start seeing what data for devices would look like throughout the system.  To open up the form, go to the <img src="https://www.iot-ensemble.com/img/screenshots/icon-devices-telemetry.png" class="text-image" /> Devices Telemetry section and at the bottom click the <img src="https://www.iot-ensemble.com/img/screenshots/dashboard-send-device-message.png" class="text-image" /> button.
+Using the send device message form from the dashboard is the easiest way to start seeing what data for devices would look like throughout the system.  To open up the form, go to the <img src="https://www.fathym.com/iot/img/screenshots/icon-devices-telemetry.png" class="text-image" /> Devices Telemetry section and at the bottom click the <img src="https://www.fathym.com/iot/img/screenshots/dashboard-send-device-message.png" class="text-image" /> button.
 
-![Send Device Message](https://www.iot-ensemble.com/img/screenshots/dashboard-send-device-message-dialog.png)
+![Send Device Message](https://www.fathym.com/iot/img/screenshots/dashboard-send-device-message-dialog.png)
 
-Once opened, select the device to send from and adjust any of the values.  Press <img src="https://www.iot-ensemble.com/img/screenshots/dashboard-send-device-message-dialog-send-message.png" class="text-image" /> when ready, and on the next telemetry sync the custom device data will be visible.  The telemetry table is only one way to see data, read on for more details on [viewing device data](viewing-device-data).
+Once opened, select the device to send from and adjust any of the values.  Press <img src="https://www.fathym.com/iot/img/screenshots/dashboard-send-device-message-dialog-send-message.png" class="text-image" /> when ready, and on the next telemetry sync the custom device data will be visible.  The telemetry table is only one way to see data, read on for more details on [viewing device data](viewing-device-data).
 
 ### Send Via HTTP
 
@@ -153,9 +153,9 @@ For more details on how to create a SAS Token from a connection string, read our
 
 ::: -->
 
-The easiest way to try out an HTTP request, with valid SAS Token, is to grab a SAS Token from the dashboard (only good for 1 hour).  Use the <img src="https://www.iot-ensemble.com/img/screenshots/icon-setup.png" class="text-image" /> button to open a dialog where the <img src="https://www.iot-ensemble.com/img/screenshots/icon-copy.png" class="text-image" /> button will copy the SAS Token signature.
+The easiest way to try out an HTTP request, with valid SAS Token, is to grab a SAS Token from the dashboard (only good for 1 hour).  Use the <img src="https://www.fathym.com/iot/img/screenshots/icon-setup.png" class="text-image" /> button to open a dialog where the <img src="https://www.fathym.com/iot/img/screenshots/icon-copy.png" class="text-image" /> button will copy the SAS Token signature.
 
-![Send Device Message](https://www.iot-ensemble.com/img/screenshots/dashboard-devices-sas-tokens-dialog.png)
+![Send Device Message](https://www.fathym.com/iot/img/screenshots/dashboard-devices-sas-tokens-dialog.png)
 
 With SAS Token in hand, we can execute a curl command like the following to send a device message.  Continue reading for a complete guide on [sending messages with HTTP](../devs/device-setup/connect/http).
 

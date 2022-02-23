@@ -26,11 +26,11 @@ IoT Ensemble provides out of the box APIs that allow you to interact with your d
 
 Make sure that you've downloaded and installed [Power BI Desktop](https://powerbi.microsoft.com/en-us/downloads/).  Once installed, launch it and go to **Get Data -> Web**. As you may have guessed, this data source will allow you to import data from the web.
 
-![Power BI Get Data Web](https://www.iot-ensemble.com/img/screenshots/power-bi-get-data-web.png)
+![Power BI Get Data Web](https://www.fathym.com/iot/img/screenshots/power-bi-get-data-web.png)
 
 Once this has been selected, a popup will appear allowing input of the API URL. You will need to select the **Advanced** radio button to input the **Access Key** as an additional header parameter.
 
-![Power BI From Web Advanced](https://www.iot-ensemble.com/img/screenshots/power-bi-from-web-advanced.png)
+![Power BI From Web Advanced](https://www.fathym.com/iot/img/screenshots/power-bi-from-web-advanced.png)
 
 The API request URL can be obtained from the dashboard using either the cold or warm query APIs.  Here is a sample cold query URL you can start with, and the dashboard will assist in discovering the parameters for this query.
 
@@ -50,7 +50,7 @@ https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType
 
 Now input the request URL from above (or obtained from the dashboard) into the Power BI **URL Parts** text field.  Then enter `lcu-subscription-key` as a header parameter key, along with the **Access Key** copied from IoT Ensemble Dashboard in the value text field.
 
-![Power BI From web Advanced Enter Values](https://www.iot-ensemble.com/img/screenshots/power-bi-from-web-advanced-enter-values.png)
+![Power BI From web Advanced Enter Values](https://www.fathym.com/iot/img/screenshots/power-bi-from-web-advanced-enter-values.png)
 
 With these values entered, select **OK** and the Power Query Editor will load your JSON payloads.  These will need to be converted to a table before you can visualize your data.
 
@@ -58,13 +58,13 @@ With these values entered, select **OK** and the Power Query Editor will load yo
 
 Now that the data is connected into our report, we need to convert it to a table.  Do this by selecting **To Table** and then **OK** from the following popup.
 
-![Power BI Get Data Web to Table](https://www.iot-ensemble.com/img/screenshots/power-bi-get-data-web-to-table.png)
+![Power BI Get Data Web to Table](https://www.fathym.com/iot/img/screenshots/power-bi-get-data-web-to-table.png)
 
-![Power BI Get Data Web to Table Prompt](https://www.iot-ensemble.com/img/screenshots/power-bi-get-data-web-to-table-prompt.png)
+![Power BI Get Data Web to Table Prompt](https://www.fathym.com/iot/img/screenshots/power-bi-get-data-web-to-table-prompt.png)
 
 The data is still showing as a single complex option.  Select the **expand arrows** icon and Power BI will begin to break down the complex object into columns.
 
-![Power BI Get Data Web Table Expand](https://www.iot-ensemble.com/img/screenshots/power-bi-get-data-web-table-expand.png)
+![Power BI Get Data Web Table Expand](https://www.fathym.com/iot/img/screenshots/power-bi-get-data-web-table-expand.png)
 
 After converting to a table and expanding the record, you may notice that some columns still say **Record**. You will need to repeat this expanding process on those columns to expose the nested json data for use in Power BI.
 
@@ -78,7 +78,7 @@ Additional information on how to shape your data can be found all over the inter
   
 When your query is where you want it, select **Close & Apply** from Power Query Editor's File menu.
 
-![Power BI Get Data Web Close and Apply](https://www.iot-ensemble.com/img/screenshots/power-bi-get-data-web-close-apply.png)
+![Power BI Get Data Web Close and Apply](https://www.fathym.com/iot/img/screenshots/power-bi-get-data-web-close-apply.png)
 
 This action applies the changes and closes the editor.  The transformed dataset appears in the Power BI Desktop, ready to be used for creating reports.
 
@@ -86,11 +86,11 @@ This action applies the changes and closes the editor.  The transformed dataset 
 
 Now that you have transformed and loaded your data, it is time to prepare reports and visualizations for data interpretation and analysis.  In the Fields pane on the right, you see the fields in the data model you just transformed and created.
 
-![Power BI Data Fields](https://www.iot-ensemble.com/img/screenshots/power-bi-data-fields.png)
+![Power BI Data Fields](https://www.fathym.com/iot/img/screenshots/power-bi-data-fields.png)
 
 Power BI can help you create compelling reports where you can change visualizations, customize colors or axes, apply filters, drag fields, and more!  All these changes are fun to do, easy to undo, and quick to take effect.  The **Visualizations** pane provides the tools necessary for adding and configuring multiple visualizations.  Power BI has a growing list of visualizations you can download and use in your own reports that transforms complicated data into something easy to understand.  This ease provides insights to make informed decisions quickly.
 
-![Power BI Get Data Web Close and Apply](https://www.iot-ensemble.com/img/screenshots/power-bi-visualizations.png)
+![Power BI Get Data Web Close and Apply](https://www.fathym.com/iot/img/screenshots/power-bi-visualizations.png)
 
 Additional information on how to visualize and bring your data to life can be located across the internet.  You can get started on [building your report](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-excel-stunning-report#build-your-report) and work through a quick [10 minute example](https://docs.microsoft.com/en-us/learn/modules/build-your-first-power-bi-report/4-exercise-create-visuals-in-power-bi) to get you going.
 

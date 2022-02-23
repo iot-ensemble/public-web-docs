@@ -43,13 +43,13 @@ If using our Enterprise plan, Azure Machine Learning will already be setup and c
 
 ### Configuring Automated ML Dataset
 
-Once setup, launch the [Azure Macine Learning portal](https://ml.azure.com) and you'll land on the dashboard.  From there, select the **Automated ML** option from the left, and then click <img src="https://www.iot-ensemble.com/img/screenshots/azure-ml-add-automated-ml-run.png" class="text-image" />.
+Once setup, launch the [Azure Macine Learning portal](https://ml.azure.com) and you'll land on the dashboard.  From there, select the **Automated ML** option from the left, and then click <img src="https://www.fathym.com/iot/img/screenshots/azure-ml-add-automated-ml-run.png" class="text-image" />.
 
-![Azure ML Automated option](https://www.iot-ensemble.com/img/screenshots/azure-ml-automated-option.png)
+![Azure ML Automated option](https://www.fathym.com/iot/img/screenshots/azure-ml-automated-option.png)
 
 This will open the Automated ML Run wizard, where you can click **Create Dataset > From web files** to open the dataset wizard.
 
-![Azure ML Automated ML Run Create Dataset](https://www.iot-ensemble.com/img/screenshots/azure-ml-automated-ml-run-wizard-create-dataset.png)
+![Azure ML Automated ML Run Create Dataset](https://www.fathym.com/iot/img/screenshots/azure-ml-automated-ml-run-wizard-create-dataset.png)
 
 When the dataset create wizard opens, you'll need to input some values.  For **Web URL**, you'll use something like the following cold query call (make sure to replace **{subscription-key}** with one of the key values from your IoT Ensemble dashboard):
 
@@ -59,7 +59,7 @@ https://fathym-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSONLines&fla
 
 :::note
 
-This guide is using data returned from our emulated data, and [getting started blog](https://www.iot-ensemble.com/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi).  If you would like to use the [emulated data](../../getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
+This guide is using data returned from our emulated data, and [getting started blog](https://www.fathym.com/iot/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi).  If you would like to use the [emulated data](../../getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
 
 ```console
 https://fathym-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSONLines&flatten=true&includeEmulated=true&lcu-subscription-key={subscription-key}
@@ -69,21 +69,21 @@ https://fathym-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSONLines&fla
 
 Now input your own values in the **Name** and **Description** text fields, and check the **Skip data validation** checkbox.  With these values entered, select **Next**.
 
-![Azure ML Automated ML Run Dataset Wizard](https://www.iot-ensemble.com/img/screenshots/azure-ml-automated-ml-run-dataset-wizard-skip.png)
+![Azure ML Automated ML Run Dataset Wizard](https://www.fathym.com/iot/img/screenshots/azure-ml-automated-ml-run-dataset-wizard-skip.png)
 
 Now we need to set our dataset up with the correct settings to match our cold query endpoint.  Set the **File format** to `JSONLines` and adjust the **Column headers** to `No headers`.  Leave the other two values as is and select next:
 
-![Azure ML Automated ML Run Dataset Wizard](https://www.iot-ensemble.com/img/screenshots/azure-ml-automated-ml-run-dataset-wizard-settings.png)
+![Azure ML Automated ML Run Dataset Wizard](https://www.fathym.com/iot/img/screenshots/azure-ml-automated-ml-run-dataset-wizard-settings.png)
 
 There is nothing to do on the **Schema** step, so you can click next through that to confirm your details.  If the details look correct, then click **Create** and wait for the dataset to be ready.  Once the dataset is created, you'll be back in the Create Automated ML Run Wizard with the Cold Query dataset in view.  Select the newly created data set and click **Next** to finish configuring the dataset.
 
-![Azure ML Automated ML Run Dataset List](https://www.iot-ensemble.com/img/screenshots/azure-ml-automated-ml-run-wizard-cold-query-dataset.png)
+![Azure ML Automated ML Run Dataset List](https://www.fathym.com/iot/img/screenshots/azure-ml-automated-ml-run-wizard-cold-query-dataset.png)
 
 ### Configuring Automated ML Run
 
 The next step is to configure a Azure Automated Machine Learning run so that it can train and build a model of your choosing.  Start by setting the **New experiment name** to `TemperatureExperiment`, then select the appropriate **Target column**, for this example the `SensorReadings_Temperature` column.  Now either create or select an existing compute cluster to run the experiment on and select **Next**.
 
-![Azure ML Automated ML Run Configure](https://www.iot-ensemble.com/img/screenshots/azure-ml-automated-ml-run-wizard-configure-run.png)
+![Azure ML Automated ML Run Configure](https://www.fathym.com/iot/img/screenshots/azure-ml-automated-ml-run-wizard-configure-run.png)
 
 :::note
 
@@ -95,11 +95,11 @@ The Cold Query parameter `flatten=true` is what unfolds complex properties in yo
 
 Now, based on the data coming from devices, we can choose the Automated ML task that makes sense for our situation.  We will be working with our temperature reading and will use the **[Regression](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml#regression)** task.  Now click on **Finish** to start the Automated ML run.
 
-![Azure ML Automated ML Run Task Settings](https://www.iot-ensemble.com/img/screenshots/azure-ml-automated-ml-run-wizard-task-settings.png)
+![Azure ML Automated ML Run Task Settings](https://www.fathym.com/iot/img/screenshots/azure-ml-automated-ml-run-wizard-task-settings.png)
 
 Once the Automated ML is running, you'll have to wait for it to complete to move on to next steps.  In the end, this is how simple it is to leverage IoT Ensemble with Azure Machine Learning Automated ML experiments.  There is a lot more you can do with Azure Automated ML, read the full docs [here](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml).  You can see details on the completed model runs from the **Models** tab and with the click of a button **Deploy** the best fit model for use.
 
-![Azure ML Automated ML Run Running](https://www.iot-ensemble.com/img/screenshots/azure-ml-automated-ml-running.png)
+![Azure ML Automated ML Run Running](https://www.fathym.com/iot/img/screenshots/azure-ml-automated-ml-running.png)
 
 <!-- 
 ## Azure Automated Machine Learning - Classification
@@ -114,7 +114,7 @@ If your using [IoT Ensemble's Best Practice Schema](../../../devs/device-setup/b
 
 You may get this error when trying to walkthrough this guide.  You can use the [connect a device](../../../getting-started/connecting-first-device) getting started guide to walk through many different way to get data flowing or use the emulated data URL shown above.
 
-![Azure ML Automated ML Run Finish Not Enough Rows Error](https://www.iot-ensemble.com/img/screenshots/azure-ml-automated-ml-run-wizard-finish-not-enough-rows.png)
+![Azure ML Automated ML Run Finish Not Enough Rows Error](https://www.fathym.com/iot/img/screenshots/azure-ml-automated-ml-run-wizard-finish-not-enough-rows.png)
 
 :::
 -->

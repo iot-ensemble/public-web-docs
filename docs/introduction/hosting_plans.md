@@ -25,11 +25,11 @@ What typically happens in organizations is there is an investment in a SaaS solu
 
 Let's look at how the different hosting plans align with the pace of your growth.
 
-![Hosting Plans](https://www.iot-ensemble.com/img/isometric-iot-ensemble-lcu-whitelabel-white.png)
+![Hosting Plans](https://www.fathym.com/iot/img/isometric-iot-ensemble-lcu-whitelabel-white.png)
 
 ## Shared Plan 
 
-IoT Ensemble is a public SaaS application open to everyone. It’s available at www.iot-ensemble.com and it’s hosted in Fathym's Microsoft Azure account. 
+IoT Ensemble is a public SaaS application open to everyone. It’s available at https://www.fathym.com/iot/ and it’s hosted in Fathym's Microsoft Azure account. 
 
 ## Enterprise Plans 
 

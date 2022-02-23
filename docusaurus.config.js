@@ -10,9 +10,6 @@ module.exports = {
   organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
   projectName: 'public-web-docs', // Usually your repo name.
   themeConfig: {
-    gtag: {
-      trackingID: 'G-NEWEXH7W8C',
-    },
     oribi: {
       trackingID: 'XzcwMzAwMzkyNA',
     },
@@ -132,6 +129,9 @@ module.exports = {
           routeBasePath: '/',
           // The iot-ensemble website repo
           // editUrl: 'https://github.com/iot-ensemble/public-web-docs/edit/master/website/',
+        },
+        gtag: {
+          trackingID: 'G-NEWEXH7W8C',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

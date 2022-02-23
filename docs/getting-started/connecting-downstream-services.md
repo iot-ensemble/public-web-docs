@@ -39,11 +39,11 @@ This storage access documentation focuses around our pre-built APIs, available t
 
 There are a few different places to locate API keys, the simplest is from the Storage Access section at the bottom of the dashboard.
 
-![Storage Access](https://www.iot-ensemble.com/img/screenshots/dashboard-storage-access.png)
+![Storage Access](https://www.fathym.com/iot/img/screenshots/dashboard-storage-access.png)
 
-To quickly copy storage access keys, use the <img src="https://www.iot-ensemble.com/img/screenshots/icon-copy.png" class="text-image" /> button, or use the <img src="https://www.iot-ensemble.com/img/screenshots/icon-view.png" class="text-image" /> and <img src="https://www.iot-ensemble.com/img/screenshots/icon-hide.png" class="text-image" /> buttons to toggle the visibility of the keys on screen.  
+To quickly copy storage access keys, use the <img src="https://www.fathym.com/iot/img/screenshots/icon-copy.png" class="text-image" /> button, or use the <img src="https://www.fathym.com/iot/img/screenshots/icon-view.png" class="text-image" /> and <img src="https://www.fathym.com/iot/img/screenshots/icon-hide.png" class="text-image" /> buttons to toggle the visibility of the keys on screen.  
 
-<!-- If needing to regenerate either of the keys, use the <img src="https://www.iot-ensemble.com/img/screenshots/icon-refresh.png" class="text-image" /> button. -->
+<!-- If needing to regenerate either of the keys, use the <img src="https://www.fathym.com/iot/img/screenshots/icon-refresh.png" class="text-image" /> button. -->
 
 ### Cold Storage
 
@@ -91,4 +91,4 @@ There are a lot of options in Power BI Desktop for importing data to be used in 
 
 Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as well as the interactive forms described above to obtain request URLs for cold and warm storage queries.  This is all you need to get started visualizing data with Power BI!
 
-You can get started with a [Power BI dashboard](../devs/storage/power-bi), or for a complete look at how it fits in, check out our [End-to-end IoT blog](https://www.iot-ensemble.com/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi).
+You can get started with a [Power BI dashboard](../devs/storage/power-bi), or for a complete look at how it fits in, check out our [End-to-end IoT blog](https://www.fathym.com/iot/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi).

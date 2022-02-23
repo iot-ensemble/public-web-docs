@@ -15,13 +15,13 @@ hide_table_of_contents: true
 
 These instructions show how to use Logic Apps to call the IoT Ensemble warm query every 12 hours and insert the data into a SQL Server database. Before we get started, here's an overview of the entire Logic App with the steps collapsed.
 
-![Completed Steps](https://www.iot-ensemble.com/img/screenshots/logic-apps-sql-server-overview.png)
+![Completed Steps](https://www.fathym.com/iot/img/screenshots/logic-apps-sql-server-overview.png)
 
 ## Step 1: HTTP
 
 For the first step of the Logic App, search for 'HTTP'.
 
-![Search for HTTP](https://www.iot-ensemble.com/img/screenshots/alerts/search-for-http.png)
+![Search for HTTP](https://www.fathym.com/iot/img/screenshots/alerts/search-for-http.png)
 
 Configure the HTTP trigger with the following settings from your IoT Ensemble account. This example is using the Warm Query.
 - Method: `GET`
@@ -29,7 +29,7 @@ Configure the HTTP trigger with the following settings from your IoT Ensemble ac
 - Header: `lcu-subscription-key: f24047c3d5b14f****`
 - How often do you want to check for items?: `12 Hour`
 
-![HTTP Settings](https://www.iot-ensemble.com/img/screenshots/alerts/http-settings.png)
+![HTTP Settings](https://www.fathym.com/iot/img/screenshots/alerts/http-settings.png)
 
 :::note
 Use your primaryKey or secondaryKey from the IoT Ensemble API Keys for the lcu-subscription-key value. For example:
@@ -45,7 +45,7 @@ In the HTTP trigger above, use the 'How often do you want to check for items' fi
 
 For the next step of the Logic App, search for 'Compose'.
 
-![Search for Compose](https://www.iot-ensemble.com/img/screenshots/alerts/search-for-compose.png)
+![Search for Compose](https://www.fathym.com/iot/img/screenshots/alerts/search-for-compose.png)
 
 For the Compose step we need to list an example JSON payload the Logic App will receive from the HTTP trigger. For the IoT Ensemble Warm Query, you can use the following:
 
@@ -135,45 +135,45 @@ For the Compose step we need to list an example JSON payload the Logic App will 
 
 Copy/paste the JSON payload above into the Compose input:
 
-![Compose Settings](https://www.iot-ensemble.com/img/screenshots/alerts/compose-settings.png)
+![Compose Settings](https://www.fathym.com/iot/img/screenshots/alerts/compose-settings.png)
 
 ## Step 3: Parse JSON
 
 For the next step of the Logic App, search for 'Parse JSON'.
 
-![Search for Parse JSON](https://www.iot-ensemble.com/img/screenshots/alerts/search-for-parsejson.png)
+![Search for Parse JSON](https://www.fathym.com/iot/img/screenshots/alerts/search-for-parsejson.png)
 
 For the Parse JSON content, use the dynamic `Outputs` object from the previous Compose step. For the Schema, click the 'Use sample payload to generate schema' link and it will automatically generate the schema based on the `Outputs` object. Refer to the screenshot below:
 
-![Parse JSON Settings](https://www.iot-ensemble.com/img/screenshots/alerts/parsejson-settings.png)
+![Parse JSON Settings](https://www.fathym.com/iot/img/screenshots/alerts/parsejson-settings.png)
 
 ## Step 4: For Each
 
 For the next step of the Logic App, search for 'For Each'. Select the 'Control' option.
 
-![Search For Each](https://www.iot-ensemble.com/img/screenshots/alerts/search-for-foreach.png)
+![Search For Each](https://www.fathym.com/iot/img/screenshots/alerts/search-for-foreach.png)
 
 Within the Controls, select the 'For each' action.
 
-![Search For Each](https://www.iot-ensemble.com/img/screenshots/alerts/search-for-foreach-control.png)
+![Search For Each](https://www.fathym.com/iot/img/screenshots/alerts/search-for-foreach-control.png)
 
 For the output, select the dynamic `Payloads` object from the previous Parse JSON step.
 
-![Search For Each](https://www.iot-ensemble.com/img/screenshots/logic-apps-for-each-payloads.png)
+![Search For Each](https://www.fathym.com/iot/img/screenshots/logic-apps-for-each-payloads.png)
 
 ## Step 5: Insert into SQL Server
 
 Click the 'Add an Action' button to add an action to the For Each. Search for 'sql server' and select the 'SQL Server' option.
 
-![Search for SQL Server](https://www.iot-ensemble.com/img/screenshots/logic-apps-choose-operation-sql-server.png)
+![Search for SQL Server](https://www.fathym.com/iot/img/screenshots/logic-apps-choose-operation-sql-server.png)
 
 Within the SQL Server option, select 'Import row'.
 
-![Select SQL Server Import Row](https://www.iot-ensemble.com/img/screenshots/logic-apps-sql-server-import-row.png)
+![Select SQL Server Import Row](https://www.fathym.com/iot/img/screenshots/logic-apps-sql-server-import-row.png)
 
 After you authorize with the SQL Server, the form will allow you to select your server, database, and table. After those are selected, you can add Parameters for each of your data properties. The screenshot below is based on the IoT Ensemble emulated data.
 
-![List SQL Server Parameters](https://www.iot-ensemble.com/img/screenshots/logic-apps-for-each-sql.png)
+![List SQL Server Parameters](https://www.fathym.com/iot/img/screenshots/logic-apps-for-each-sql.png)
 
 Save and run the logic app to see it in action.
 
@@ -181,4 +181,4 @@ Save and run the logic app to see it in action.
 
 Here's an overview of the entire Logic App with the steps collapsed. The Logic App calls the IoT Ensemble warm query every 12 hours and inserts the data into a SQL Server database.
 
-![Overview of Steps](https://www.iot-ensemble.com/img/screenshots/logic-apps-sql-server-overview.png)
+![Overview of Steps](https://www.fathym.com/iot/img/screenshots/logic-apps-sql-server-overview.png)
