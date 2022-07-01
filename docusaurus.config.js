@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Fathym IoT Ensemble Beta',
+  title: 'Fathym IoT Ensemble',
   tagline: 'Experience IoT in minutes | No credit card required',
   url: 'https://www.iot-ensemble.com',
   baseUrl: '/iot/docs/',
@@ -20,14 +20,14 @@ module.exports = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'IoT Ensemble Beta',
+      title: 'IoT Ensemble',
       logo: {
         alt: 'IoT Ensemble',
         src: 'img/Fathym-logo-white-01.png',
       },
       items: [
         {
-          href: 'https://www.iot-ensemble.com',
+          to: 'https://www.fathym.com/iot',
           label: 'Home',
           position: 'left',
           target: '_top',
@@ -45,29 +45,29 @@ module.exports = {
         //   target: '_top',
         // },
         {
-          href: 'https://www.iot-ensemble.com/docs',
+          to: 'https://www.fathym.com/iot/docs',
           label: 'Docs',
           position: 'right',
           target: '_top',
         },
         {
-          href: 'https://www.iot-ensemble.com/blog',
+          to: 'https://www.fathym.com/iot/blog',
           label: 'Blog',
           position: 'right',
           target: '_top',
         },
         {
-          href: 'https://www.iot-ensemble.com/dashboard',
+          to: 'https://www.fathym.com/dashboard/iot',
           label: 'Sign In',
           position: 'right',
           target: '_top',
         },
-        {
-          href: 'https://www.iot-ensemble.com/dashboard',
-          label: 'Sign Up',
-          position: 'right',
-          target: '_top',
-        }, 
+        //{
+        //  href: 'https://www.iot-ensemble.com/dashboard',
+        //  label: 'Sign Up',
+        //  position: 'right',
+        //  target: '_top',
+        //}, 
       ],
     },
     footer: {
@@ -95,7 +95,7 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/iot-ensemble',
+              to: 'https://stackoverflow.com/questions/tagged/iot-ensemble',
             },
             //{
             //  label: 'Discord',
@@ -103,7 +103,7 @@ module.exports = {
             //},
             {
               label: 'Twitter',
-              href: 'https://twitter.com/iotensemble',
+              to: 'https://twitter.com/iotensemble',
             },
           ],
         },
@@ -112,7 +112,7 @@ module.exports = {
           items: [
             {
               label: 'Learn More',
-              href: 'https://www.fathym.com',
+              to: 'https://www.fathym.com',
             },
           ],
         },

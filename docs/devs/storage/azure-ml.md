@@ -54,7 +54,7 @@ This will open the Automated ML Run wizard, where you can click **Create Dataset
 When the dataset create wizard opens, you'll need to input some values.  For **Web URL**, you'll use something like the following cold query call (make sure to replace **{subscription-key}** with one of the key values from your IoT Ensemble dashboard):
 
 ```console
-https://fathym-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSONLines&flatten=true&lcu-subscription-key={subscription-key}
+https://fathym-cloud-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSONLines&flatten=true&lcu-subscription-key={subscription-key}
 ```
 
 :::note
@@ -62,7 +62,7 @@ https://fathym-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSONLines&fla
 This guide is using data returned from our emulated data, and [getting started blog](https://www.fathym.com/iot/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi).  If you would like to use the [emulated data](../../getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
 
 ```console
-https://fathym-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSONLines&flatten=true&includeEmulated=true&lcu-subscription-key={subscription-key}
+https://fathym-cloud-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSONLines&flatten=true&includeEmulated=true&lcu-subscription-key={subscription-key}
 ```
 
 :::

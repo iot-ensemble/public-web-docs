@@ -35,7 +35,7 @@ Once this has been selected, a popup will appear allowing input of the API URL. 
 The API request URL can be obtained from the dashboard using either the cold or warm query APIs.  Here is a sample cold query URL you can start with, and the dashboard will assist in discovering the parameters for this query.
 
 ```console
-https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSON
+https://fathym-cloud-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSON
 ```
 
 :::note
@@ -43,7 +43,7 @@ https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType
 If you would like to use the [emulated data](../../getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
 
 ```console
-https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSON&includeEmulated=true
+https://fathym-cloud-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSON&includeEmulated=true
 ```
 
 :::

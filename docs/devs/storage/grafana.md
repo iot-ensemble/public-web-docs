@@ -23,13 +23,13 @@ The IoT Ensemble Dashboard displays your API Keys.
 For the Cold Query, use this URL:
 
 ```console
-Request URL: https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?dataType=Telemetry&flatten=true&includeEmulated=false&resultType=JSON&zip=false
+Request URL: https://fathym-cloud-prd.azure-api.net/iot-ensemble/ColdQuery?dataType=Telemetry&flatten=true&includeEmulated=false&resultType=JSON&zip=false
 ```
 
 For the Warm Query, use this URL:
 
 ```console
-Request URL: https://fathym-prd.azure-api.net/iot-ensemble/WarmQuery?includeEmulated=false
+Request URL: https://fathym-cloud-prd.azure-api.net/iot-ensemble/WarmQuery?includeEmulated=false
 ```
 
 :::note
@@ -48,7 +48,7 @@ Click the 'Add data source' button and search for 'json'.  Select the 'JSON API'
 
 This example uses the Cold Query. Use the following values in the form: 
 
-- URL: `https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery`
+- URL: `https://fathym-cloud-prd.azure-api.net/iot-ensemble/ColdQuery`
 - Auth: `With Credentials`
 - Custom HTTP Headers: `lcu-subscription-key: ***********`
 - Query string: `dataType=Telemetry&flatten=true&includeEmulated=false&resultType=JSON&zip=false` 
