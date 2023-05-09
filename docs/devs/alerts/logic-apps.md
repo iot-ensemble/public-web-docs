@@ -29,7 +29,7 @@ For the first step of the Logic App, search for 'HTTP'.
 
 Configure the HTTP trigger with the following settings from your IoT Ensemble account. This example is using the Warm Query.
 - Method: `GET`
-- URI: `https://fathym-cloud-prd.azure-api.net/iot-ensemble/WarmQuery?includeEmulated=true`
+- URI: `https://fathym-cloud-prd.azure-api.net/fcp-iotensemble/WarmQuery?includeEmulated=true`
 - Header: `lcu-subscription-key: f24047c3d5b14f****`
 - How often do you want to check for items?: `12 Hour`
 
