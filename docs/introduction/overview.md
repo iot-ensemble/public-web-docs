@@ -13,18 +13,22 @@ keywords:
 hide_table_of_contents: true
 ---
 
-# Welcome to Fathym IoT Ensemble
+# Introducing IoT Ensemble
 
-Fathym IoT Ensemble is a platform focused on helping you to connect devices, understand data and scale IoT applications.
+IoT Ensemble automates a best practice Azure IoT cloud for rapidly connecting devices and ingesting and processing device data for cloud-based applications. IoT Ensemble is one of Fathym’s three tools for assembling cloud-based applications, alongside the [Fathym Platform](https://www.fathym.com) and [Habistack](https://www.fathym.com/forecast).
 
-Managing the learning path, usage and growth of cloud-native IoT development strategies can be a daunting challenge. Use IoT Ensemble to reliably deliver IoT applications across hybrid-clouds. [Get started](https://www.fathym.com/dashboard/iot) today.
+IoT Ensemble is an out-of-the-box and intuitive control system for connecting devices, understanding data and integrating with application templates and downstream services. Easy to hook up devices to the cloud and initiate the flow of device data, IoT Ensemble automatically splits ingested device data into 3 streams – hot, warm and cold data flows.
 
-![IoT Ensemble Diagram](https://www.fathym.com/iot/img/iot-ensemble-diagram.png)
+- The hot flow gives near-real-time information via web sockets and/or message queuing directly into applications such as dashboards.
+- The warm flow and its database are accessible via built-in REST API and route data into a time-series window for analytics, alerts, dashboards and more.
+- The cold flow is the “absolute truth,” raw sensor data – also accessible via built-in REST API for AI/ML and deep analytics.
 
-## Connect, Understand, Scale
+IoT Ensemble operates as a virtual development team that automates best practices for cloud-based IoT application delivery, augmenting your team’s skills by handling the heavy lifting and radically reducing the time and work involved.
 
-When getting started with a new cloud-native IoT solution, you’re not only working towards connecting a device, but also on how to process and store its data in order to perform tasks such as visualization, machine learning, and application development. This requires learning a number of cloud-native technologies before being able to deliver a solution.
+![IoT Ensemble Architecture](https://www.fathym.com/iot/img/IoT_Architecture.png)
 
-IoT Ensemble operates as a virtual development team that automates best practices for IoT application delivery.  In order to help you focus on building applications and creating value, we built the platform to augment your team’s skills and do the heavy lifting.
+## Device > Cloud > App
 
-[Using the platform](https://www.fathym.com/iot/dashboard) radically reduces the time and work involved in getting devices connected, understanding their data, and delivering end-to-end customer driven IoT applications.
+IoT Ensemble in combination with the Fathym platform is a powerful **Device-to-Cloud-to-Applications suite**. The Fathym platform offers pre-configured automations, open-source app templates and streamlined DevOps to assemble and launch cloud-based apps and dashboards auto-populated with device data from IoT ensemble.
+
+Alongside the Fathym platform and Habistack, IoT Ensemble is available as a hosted SaaS. IoT Ensemble and Fathym’s tools can also be licensed to run on your own Azure cloud for maximum control and data security, avoiding vendor lock-in or compromising future development pathways.

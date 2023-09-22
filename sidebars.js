@@ -1,13 +1,17 @@
 module.exports = {
   docs: {
-    Introduction: ['introduction/overview', 'introduction/support','introduction/hosting_plans'],
-    'Getting Started': [
+    Introduction: [
+      'introduction/overview', 
+      'introduction/support',
+      //'introduction/hosting_plans',
+    ],
+    "Getting Started": [
       'getting-started/setup',
       'getting-started/emulated-data',
       'getting-started/connecting-first-device',
       'getting-started/viewing-device-data',
       'getting-started/connecting-downstream-services',
-      'getting-started/buy-and-scale',
+      //'getting-started/buy-and-scale',
     ],
     Tutorials: [
       {
@@ -37,7 +41,7 @@ module.exports = {
       },      
     ],
     Developers: [
-      'devs/licenses',
+      //'devs/licenses',
       // 'devs/azure-iot-hub-explained',
       {
         'Device Setup': [
