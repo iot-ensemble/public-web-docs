@@ -566,7 +566,7 @@ Follow the ["Getting Started"](https://www.openbiotech.co/docs/getting-started/e
 From the "Data" section, you should see a Connection String for your newly created device. Copy this value for later use. 
 
 
-### Add Config file to your Emotibi
+### Add Config file to your Emotibit
 
 Next, we will need to create a config file on your Emotibit's SD card, and fill in the appropriate values.
 
@@ -613,7 +613,7 @@ Next, take the **YourDeviceID** portion of your connection string, and paste it 
 
 Once you have set your values, save the config.txt file and remove the SD card from your PC. Place it back into your Emotibit device
 
-## Verify and Upload Your Code
+## Part 6 - Verify and Upload Your Code
 
 Now it is time to bring your ESP32 to life! In the top left corner of the Arduino IDE, click the "Verify" button, which looks like a checkbox (shown below)
 
@@ -634,7 +634,7 @@ Your ESP32 should now be taking sensor readings, and sending the information up 
 Once you confirm that messages are sending correctly, you can now go to [OpenBiotech](https://www.openbiotech.co/dashboard/) and see your messages in real time.
 
 
-## Understanding the Emotibit Data Payloads
+## Part 7 - Understanding the Emotibit Data Payloads
 If you have done everything correctly, your payloads should look something like this:
 ```C
 {
