@@ -17,7 +17,7 @@ hide_table_of_contents: true
 
 ## Connecting Emotibit's ESP32-based Board and Streaming Live Sensor Data with Fathym OpenBiotech
 
-In this tutorial, we will be taking an [Emotibit](https://www.emotibit.com) (An ESP32-based health monitoring board), reading it's multiple sensor datastreams, and send real-time messages to IoT Ensemble.
+In this tutorial, we will be taking an [Emotibit](https://www.emotibit.com) (An ESP32-based health monitoring board), reading it's multiple sensor datastreams, and send real-time messages to OpenBiotech.
 
 ### Things you will need
 - [Emotibit bundle](https://shop.openbci.com/products/all-in-one-emotibit-bundle)
